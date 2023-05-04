@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+}
+body {
+    display: flex;
+}
+header {
+    width: calc();
+}
+h1 {
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.di {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sidebar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    flex-direction: column;
+    background-color: black;
+    width: 260px;
+    height: 100vh;
+    background-color: #212121;
+    overflow: auto;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    height: 56px;
+    border-radius: 8px;
+    
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+.upper-sidebar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px 0px 20px 0px;
+}
+.lower-sidebar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    padding: 20px 0px 20px 0px;
+}
+p {
+    color: rgb(226, 226, 226);
+    font-size: 14px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+div.row {
+    margin-right: 0px;
+}
+.row:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+.box {
+    width: 95%;
+    height: 6vh;
+}
+.content {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    grid-template-columns: 253px 253px 253px 253px;
+    grid-template-rows:  50px repeat(5, 270px);
+    overflow-y: auto;
+    justify-content: center;
+}
+.main-content {
+    display: flex;
+    background: #181818;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+    overflow: auto;
+    justify-content: center;
+}
+.placeholder {
+    background-image: url("./images/cat2.png");
+    background-position: center;
+    width: 100%;
+    height: 60%;
+}
+.block {
+    grid-column: 1/5;
+    color: rgb(226, 226, 226);
+}
+.vid-container {
+    display: flex;
+    flex-direction: column;
+}
+.vidchannel {
+    width: 36px;
+    height: 36x;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.vidtitle {
+    display: flex;
+    margin-top: 15px;
+}
+.title {
+    font-weight: bolder;
+    font-family: "Roboto","Arial",sans-serif;
+}
+.channelname {
+    color: grey;
+    position: relative;
+    top: 60%;
+}
